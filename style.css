@@ -1,0 +1,66 @@
+/* Estilização do formulário */
+form {
+    width: 300px; /* Largura do formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Espaçamento interno do formulário */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    background-color: #f9f9f9; /* Fundo do formulário */
+}
+
+/* Estilização dos campos de entrada */
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%; /* Largura total do campo */
+    padding: 8px; /* Espaçamento interno dos campos */
+    margin: 8px 0; /* Margem vertical entre os campos */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estilização do botão de envio */
+input[type="submit"] {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto em branco */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor muda para indicar que é clicável */
+}
+
+/* Efeito hover no botão de envio */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cor de fundo levemente mais escura ao passar o mouse */
+}
+
+/* Estilização da tabela */
+table {
+    width: 80%; /* Largura da tabela */
+    margin: 20px auto; /* Margem superior e inferior de 20px, centraliza a tabela */
+    border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+}
+
+/* Estilização das células da tabela */
+th, td {
+    padding: 12px; /* Espaçamento interno das células */
+    border: 1px solid #ddd; /* Borda cinza clara nas células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+/* Estilo para linhas pares da tabela */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo cinza claro para linhas pares */
+}
+
+/* Estilização dos links */
+a {
+    color: red; /* Cor dos links */
+}
+
+/* Estilização para mensagens de sucesso */
+.success {
+    color: green; /* Cor verde para mensagens de sucesso */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilização para mensagens de erro */
+.error {
+    color: red; /* Cor vermelha para mensagens de erro */
+    font-weight: bold; /* Texto em negrito */
+}
