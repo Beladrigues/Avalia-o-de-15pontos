@@ -1,0 +1,66 @@
+/* Estilo do formulário */
+form {
+    width: 300px; /* Define a largura do formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Adiciona espaço interno ao redor do conteúdo do formulário */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza ao redor do formulário */
+    background-color: #f9f9f9; /* Define a cor de fundo do formulário */
+}
+
+/* Estilo para campos de entrada de texto, número e email */
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%; /* Define a largura dos campos para 100% do contêiner pai */
+    padding: 8px; /* Adiciona espaço interno nos campos */
+    margin: 8px 0; /* Adiciona espaço externo (margem) acima e abaixo dos campos */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total dos campos */
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #4CAF50; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão como branco */
+    padding: 10px 15px; /* Adiciona espaço interno ao botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Muda o cursor para uma mão quando passa sobre o botão */
+}
+
+/* Estilo para o botão de envio ao passar o mouse */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Muda a cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%; /* Define a largura da tabela como 80% do contêiner pai */
+    margin: 20px auto; /* Centraliza a tabela na página e adiciona margem vertical */
+    border-collapse: collapse; /* Remove espaços entre as bordas das células */
+}
+
+/* Estilo para células de cabeçalho e dados da tabela */
+th, td {
+    padding: 12px; /* Adiciona espaço interno nas células */
+    border: 1px solid #ddd; /* Adiciona uma borda leve em torno das células */
+    text-align: left; /* Alinha o texto à esquerda dentro das células */
+}
+
+/* Estilo para linhas pares da tabela */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Muda a cor de fundo para linhas pares */
+}
+
+/* Estilo para links */
+a {
+    color: red; /* Define a cor do texto dos links como vermelho */
+}
+
+/* Estilo para mensagens de sucesso */
+.success {
+    color: green; /* Define a cor do texto como verde para mensagens de sucesso */
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+/* Estilo para mensagens de erro */
+.error {
+    color: red; /* Define a cor do texto como vermelho para mensagens de erro */
+    font-weight: bold; /* Define o texto como negrito */
+}
